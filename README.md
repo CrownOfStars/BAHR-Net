@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ### Data Preparation
 
-We provide [download link](https://pan.baidu.com/s/1D2VcNgngWD3udEapbUUs2g?pwd=euca) for the SOD dataset，[download link](https://pan.baidu.com/s/1wdK6RYHkk9FK97Stw6z8ew?pwd=35bn) for the COD dataset, [download link](https://pan.baidu.com/s/1TuTHbVL9AIRmxXU33_RJJQ?pwd=rsu8) for the USCOD dataset.
+We provide [download link](https://pan.baidu.com/s/1bLcJSGG06ahfFJdDxi4upg?pwd=rmja) for the SOD dataset，[download link](https://pan.baidu.com/s/1bLcJSGG06ahfFJdDxi4upg?pwd=rmja) for the COD dataset, [download link](https://pan.baidu.com/s/1bLcJSGG06ahfFJdDxi4upg?pwd=rmja) for the USCOD dataset.
 
 
 
