@@ -1,0 +1,61 @@
+AMP_ENABLE: true
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CROP: null
+CKPT_ROOT: './pretrained/ckpt'
+DATA:
+  BATCH_SIZE: 128
+  DATASETS: ['COME','DUT-RGBD','DUTS-TR','NJUNLPR']
+  DATA_ROOT: './dataset/ISOD_dataset'
+  TASK: 'ISOD'
+  PRETRAIN_SIZE: 384
+  FINETUNE_SIZE: 576
+  NUM_WORKERS: 12
+  PIN_MEMORY: true
+  DROP_LAST: true
+  TEXTURE: null
+  BOUNDS: true
+
+MODEL:
+  BACKBONES: segswin-base
+  MFUSION: LSF
+  SFUSION: PATM-BAB
+OUTPUT: ''
+LOG_FREQ: 10
+TEST_GPU_ID: 1
+BACKBONE: null
+SAVE_FREQ: 10
+TAG: None
+TEST: null
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  AUTO_RESUME: true
+  BASE_LR: 2.0e-05
+  CLIP_GRAD: 0.8
+  EPOCHS: 30
+  LAYER_DECAY: 1.0
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    GAMMA: 0.1
+    MULTISTEPS: []
+    NAME: cosine
+    WARMUP_PREFIX: true
+  MIN_LR: 2.0e-07
+  MOE:
+    SAVE_MASTER: false
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 5
+  WARMUP_LR: 2.0e-08
+  WEIGHT_DECAY: 1.0e-08
+  PRE_ROOT: './pretrained/ckpts'

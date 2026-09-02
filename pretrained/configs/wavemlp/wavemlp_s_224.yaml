@@ -1,0 +1,9 @@
+MODEL:
+  TYPE: wavemlp
+  NAME: wavemlp_s_224
+  DROP_PATH_RATE: 0.5
+  WAVEMLP:
+    LAYERS: [2, 3, 10, 3]
+    EMBED_DIMS: [64, 128, 320, 512]
+    MLP_RATIOS: [ 4, 4, 4, 4]
+    DOWNSAMPLES: [ True, True,True, True]

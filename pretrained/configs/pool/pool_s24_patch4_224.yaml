@@ -1,0 +1,9 @@
+MODEL:
+  TYPE: pool
+  NAME: pool_s24_patch4_224
+  DROP_PATH_RATE: 0.5
+  POOL:
+    LAYERS: [4, 4, 12, 4]
+    EMBED_DIMS: [64, 128, 320, 512]
+    MLP_RATIOS: [ 4, 4, 4, 4]
+    DOWNSAMPLES: [ True, True,True, True]

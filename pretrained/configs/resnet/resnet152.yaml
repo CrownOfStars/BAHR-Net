@@ -1,0 +1,7 @@
+MODEL:
+  TYPE: resnet
+  NAME: resnet-152
+  DROP_PATH_RATE: 0.5
+  RESNET:
+    LAYERS: [3, 8, 36, 3]
+    EMBED_DIMS: [256, 512, 1024, 2048]

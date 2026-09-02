@@ -1,0 +1,6 @@
+MODEL:
+  TYPE: resnet
+  NAME: resnet-101
+  RESNET:
+    LAYERS: [3, 4, 23, 3]
+    EMBED_DIMS: [256, 512, 1024, 2048]

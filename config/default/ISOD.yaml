@@ -1,0 +1,6 @@
+TASK: ISOD
+DATA:
+  DATA_ROOT: './dataset/ISOD_dataset'
+  TRAINSET: ['DUTS-TR','COME','DUT-RGBD','NJUNLPR']
+  VALSET: ['DUT-O', 'ECSSD', 'HKU-IS', 'DUTS-TE', 'PASCAL-S']
+  TESTSET: ['DUT-O', 'ECSSD', 'HKU-IS', 'DUTS-TE', 'PASCAL-S']

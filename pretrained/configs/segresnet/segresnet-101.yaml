@@ -1,0 +1,7 @@
+MODEL:
+  TYPE: segresnet
+  NAME: segresnet-101
+  SEGRESNET:
+    EMBED_DIMS: [256, 512, 1024, 2048]
+    REPLACE: [False,False,False]
+    

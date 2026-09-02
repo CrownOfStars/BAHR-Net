@@ -1,0 +1,20 @@
+DATA:
+  IMG_SIZE: 224
+MODEL:
+  TYPE: segswin
+  NAME: swin_small_patch4_window7_224_22k
+  DROP_PATH_RATE: 0.2
+  DROP_RATE: 0.0
+  SWIN:
+    PATCH_SIZE: 4
+    MLP_RATIO: 4
+    QKV_BIAS: true
+    QK_SCALE: null
+    PATCH_NORM: true
+    IN_CHANS: 3
+    EMBED_DIM: 96
+    DEPTHS: [ 2, 2, 18, 2 ]
+    NUM_HEADS: [ 3, 6, 12, 24 ]
+    WINDOW_SIZE: 7
+  CKPT_NAME:
+    swin/swin_small_patch4_window7_224_22k.pth

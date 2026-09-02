@@ -1,0 +1,6 @@
+MODEL:
+  TYPE: convnext
+  CONVNEXT:
+    EMBED_DIMS: [128, 256, 512, 1024]
+    DEPTHS: [3, 3, 27, 3]
+    

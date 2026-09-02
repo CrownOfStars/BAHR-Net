@@ -1,0 +1,5 @@
+MODEL:
+  TYPE: mobilenet
+  NAME: mobilenetv2
+  MOBILE:
+    EMBED_DIMS: [24, 32, 96, 320]
