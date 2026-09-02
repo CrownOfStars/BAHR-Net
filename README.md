@@ -86,7 +86,7 @@ python joint_test.py --log_path path/to/ckpt
 
 * **Salmaps**   
 
-The salmaps of the above datasets can be download from [SOD-here](https://pan.baidu.com/s/1vMxIoR0O-lH2r-gc2RKvXQ?pwd=kp69) and [COD-here](https://pan.baidu.com/s/1umAybyg2BgKeECplOgMczw?pwd=n97g) and [USCOD-here](https://pan.baidu.com/s/19wKyO55lLovHbnpl-zhbdQ?pwd=piat).
+The salmaps of the above datasets can be download from [SOD-here](https://pan.baidu.com/s/1fsfxARs35R-OB2FQDS-s7A?pwd=s45n) and [COD-here](https://pan.baidu.com/s/1yBSk2xwBymJmRp2xUvySeQ?pwd=tna7) and [USCOD-here](https://pan.baidu.com/s/1PXAZsXxAsWj7WCYXa9d6Sg?pwd=ykjt).
 
 ## Evaluation and Visual Analysis
 
