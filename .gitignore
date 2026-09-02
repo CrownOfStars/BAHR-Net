@@ -95,8 +95,7 @@ pretrained/ckpts/
 eval/
 cmp/
 upload/
-assets/
-asset/
+
 
 # dependency checkouts
 networks/backbone/intern/InternImage
